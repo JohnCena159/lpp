@@ -1,0 +1,111 @@
+Real A,B,C,altura,base,area,lado,radio
+Caracter D
+Cadena [4] J
+Entero opcion2
+Inicio
+   Escriba "Digite su nombre"
+   Llamar nueva_linea
+   Lea J
+   Escriba "S para sumar"
+   llamar nueva_linea
+   Escriba "R para restar"
+   llamar nueva_linea
+   Escriba "M para multiplicar"
+   llamar nueva_linea
+   Escriba "D para dividir"
+   llamar nueva_linea
+   Escriba "V o v para Victor"
+   llamar nueva_linea
+   Escriba "P para area de figura geometrica y otras opciones"
+   llamar nueva_linea  
+   Escriba "Caracter distinto a S,R,M y D para terminar "
+   Llamar nueva_linea
+   Lea D
+   Caso D
+     'S': Escriba "vamos a sumar "
+     llamar nueva_linea
+     Escriba "Digite el primer numero "
+     Lea A
+     Llamar nueva_linea
+     Escriba "Digite el segundo numero "
+     Lea B
+     C<-A+B
+     Escriba "La suma es: " ,C
+       'R': Escriba "vamos a restar "
+        llamar nueva_linea
+        Escriba "Digite el primer numero "
+        Lea A
+        Llamar nueva_linea
+        Escriba "Digite el segundo numero "
+        Lea B
+        C<-A-B
+        Escriba "La diferencia es: " ,C
+          'M': Escriba "vamos a multiplicar "
+          llamar nueva_linea
+          Escriba "Digite el primer numero "
+          Lea A
+          Llamar nueva_linea
+          Escriba "Digite el segundo numero "
+          Lea B
+          C<-A*B
+          Escriba "El producto es : " ,C
+            'D': Escriba "vamos a dividir "
+            llamar nueva_linea
+            Escriba "Digite el primer numero "
+            Lea A
+            Llamar nueva_linea
+            Escriba "Digite el segundo numero "
+            Lea B
+            C<-A/B
+            Escriba "El cociente es : " ,C    
+             'V','v': escriba "Victor"   
+               'P': escriba "digite opcion a seleccionar"
+               llamar nueva_linea
+               escriba "1 para area del triangulo"
+               llamar nueva_linea
+               escriba "2 para area del cuadrado"
+               llamar nueva_linea
+               escriba "3 para area del circulo"
+               llamar nueva_linea      
+               escriba "4 para más opciones"
+               llamar nueva_linea
+               lea opcion2
+               caso opcion2
+                 1: escriba "Ingrese el numero de base "
+                 lea base
+                 llamar nueva_linea
+                 escriba "Ingrese el numero para altura "
+                 lea altura
+                 llamar nueva_linea
+                 area<-base*altura/2
+                 Escriba "El area del triangulo es: " ,area
+                  2: escriba "Ingrese el numero del lado "
+                  lea lado
+                  area<-lado^2
+                  escriba "El area del cuadrado es: ", area
+                   3: escriba "Ingrese el radio "
+                   lea radio
+                   area<-(3.1416*radio^2)
+                   escriba "El area del circulo es: ", area 
+                    4: escriba "Otras opciones"
+                    llamar nueva_linea
+                    escriba "H para contraseña"
+                    llamar nueva_linea
+                    escriba "L para ingresar fecha"
+                    llamar nueva_linea
+                    escriba "K para imrpimir su nombre completo"
+                    llamar nueva_linea
+                    lea Q
+                    caso Q
+                     
+                       
+                 
+                    
+             fin caso
+                  
+     Sino: Escriba "Opcion invalida"
+     Fin caso
+     llamar nueva_linea
+     Escriba "su nombre es: " ,J
+Fin
+     
